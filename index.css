@@ -1,0 +1,107 @@
+
+body{
+background-color: powderblue;
+position: absolute
+}
+
+#header-container {
+    overflow: hidden;
+    background-color: rgb(154, 242, 253);
+    position: fixed;
+    top: 0;
+    width: 120%;
+    text-align: center
+}
+
+#top-header {
+  color:blue;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+ 
+    
+}
+
+.navbar {
+    overflow: hidden;
+    background-color:rgb(108, 184, 194);
+    position: fixed;
+    margin-top: 110px;
+    width: 120%;
+    padding: 10px;
+    float: center;
+
+  }
+  .navbar a {
+    float: left; 
+    display: block;
+    color: #240b7e;
+    text-align: center;
+    /* padding: 2px 2px; */
+    font-size: 15px;
+    margin-left: 100px;
+  }
+  
+
+.content{
+  padding: 16px;
+  margin-top: 150px;
+  margin-right: 250px;
+  height: auto; 
+  font-family: fantasy
+
+}
+
+#name-header {
+    color:forestgreen;
+padding: 0px;
+  text-align: auto;
+  text-decoration: none;
+  margin:auto
+
+
+}
+#photo-id {
+    float: right;
+    width: 70px;
+    height: 70px;
+    margin-right: 300px;
+    background-color: whitesmoke;
+
+}
+.content{
+    top: 100%;
+    left: 10%;
+    right: 5px;
+ }
+.id-pic {
+   width: 250px;
+   height: 200px;
+   float: left;
+   clear:left; 
+   background-color: white;
+   margin: 0px 30px 30px 30px;  
+}
+
+.about{
+margin-right: 100px;  
+text-align: justify;
+line-height: 22px
+}
+
+ul { 
+    margin-left: 60px;
+}
+
+#status{
+    font-weight: bold;
+    font-weight: 700;
+    font-style: italic;
+    color: blue;
+
+}
+
+.projects {
+    margin-left: 60px;
+
+}
